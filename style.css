@@ -1,0 +1,141 @@
+* {
+    text-align: center;
+    margin: 0;
+}
+.header-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 420px;
+    background-image: url("images/header.jpg");
+    /* overflow-y: bottom; */
+    /* background-image: linear-gradient(black); */
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: 100%;
+    /* border-bottom: inside 40px rgb(0, 0, 0); */
+}
+.header-title {
+    color: azure;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 2000;
+}
+.donate {
+    margin: 80px;
+}
+a{
+    background-color: rgb(255, 36, 36);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.amount-box {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+.amount {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.amount-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #757575;
+    height: 80px;
+    width: 100px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: 700;
+}
+.amount-b-2 {
+    color: rgb(255, 36, 36);
+    border: 1.5px solid rgb(255, 36, 36);
+}
+input {
+    border-style: none;
+}
+.line {
+    height: 0.5px;
+    background-color: #cccccc;
+    margin: 10px;
+}
+.basic-need {
+    display: flex;
+    justify-content: center;
+    margin:10px 0 40px 0;
+}
+.basic{
+    margin: 20px;
+    height: 150px;
+    width: 200px;
+    padding: 30px 10px;
+}
+.basic-1 {
+    background-color: #e4f4d4;
+  
+}
+.basic-2 {
+    background-color: #ffeaea;
+}
+.basic-3 {
+    background-color: #fde8ae;
+}
+.head-middle{
+    display: flex;
+    justify-content: center;
+}
+.head-flex {
+    display: flex;
+    text-align: left;
+    margin: 10px;
+    width: 800px;
+    /* border: 1px solid black; */
+}
+.flex h2, .flex p{
+    text-align: left;
+}
+.flex{
+    text-align: left;
+    padding: 20px;
+}
+.flex img{
+    width: 320px;
+    height: 100%;
+}
+.update {
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.info {
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #757575;
+    margin-bottom: 50px;
+}
+.imp {
+    background-color: #fde8ae;
+    margin: auto;
+    height: 80px;
+    width: 900px;
+    margin-bottom: 60px;
+    align-items: center;
+    padding: 75px 20px 75px;
+}
+.inbox {
+    height: 40px;
+    width: 350px;
+    border-style: none;
+    border-radius: 3px;
+}
+.last{
+    background-color: rgba(0, 1, 19, 0.795);
+}
+
